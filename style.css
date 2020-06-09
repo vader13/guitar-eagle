@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+}
+
+.hero-section {
+  background-color: #1a1a1a;
+  height: 100vh;
+}
+
+header {
+  background-color: #1a1a1a;
+  height: auto;
+}
+
+#header-img {
+  height: auto;
+  width: 100px;
+  margin-left: 3rem;
+  margin-top: 3rem;
+}
+
+#nav {
+  float: right;
+  margin-right: 3rem;
+  margin-top: 3rem;
+}
+
+nav a {
+  text-decoration: none;
+  float: left;
+  color: white;
+  list-style: none;
+  padding: 1rem;
+  font-family: roboto;
+}
+
+#guitar-hero-img {
+  height: 90%;
+}
+
+.hero-container {
+  text-align: center;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 40% 20% 40%;
+  height: 90%;
+  background: url(background.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+#guitar-hero-img {
+  margin: 0 auto;
+}
+
+.hero-text {
+  color: white;
+  margin: auto 0;
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-family: "PT Sans Narrow", sans-serif;
+  padding: 4rem;
+}
+
+.section-header {
+  font-size: 4rem;
+  font-family: "PT Sans Narrow", sans-serif;
+  color: black;
+}
+
+.features-section {
+  margin-top: 10rem;
+  width: 100%;
+  text-align: center;
+}
+
+.features-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  margin: 0 auto;
+  margin-top: 7rem;
+}
+
+.feature-box img {
+  height: 185px;
+}
+
+.features-text {
+  font-size: 2.8rem;
+  margin-top: 3rem;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.video-section {
+  margin-top: 10rem;
+  width: 100%;
+  text-align: center;
+}
+
+p {
+  font-size: 1.8rem;
+  font-family: roboto;
+}
+
+.newletter-section {
+  margin-top: 8rem;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  background-color: #1a1a1a;
+}
+
+.newletter-section p {
+  color: white;
+}
+
+.newletter-header {
+  padding-top: 8rem;
+  color: white;
+  font-size: 4rem;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+.btn {
+  display: block;
+  margin: 1rem auto;
+  background: #1a1a1a 0% 0% no-repeat padding-box;
+  border: 2px solid #ffffff;
+  border-radius: 41px;
+  color: white;
+  width: 15rem;
+  height: 3rem;
+}
+
+#email {
+  height: 3rem;
+  border: 2px solid #ffffff;
+  border-radius: 41px;
+  width: 20rem;
+  padding-left: 1rem;
+}
+
+.img-bottom {
+  width: 30rem;
+  margin: 5rem;
+}
